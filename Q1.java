@@ -55,10 +55,9 @@ public class Main{
   Classroom classroom = new Classroom();
 
 classroom.addStudent(newStudent(101,"Thisu",11));
-classroom.addStudent(newStudent(101,"Thisu",11));
-
+classroom.addStudent(newStudent(102,"Nike",12));
+classroom.addStudent(newStudent(103,"Kula",14));
   
 }
 
 
-vhgjhg
