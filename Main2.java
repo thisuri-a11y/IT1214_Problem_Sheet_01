@@ -31,7 +31,7 @@ public class Vehicle {
     this.ownerName=ownerName;
   }
 
-   public void setHoursParked(int hoursParked){
+   public void setHoursParked(String licensePlate,String ownerName,int hoursParked){
     this.hoursParked=hoursParked;
   }
 }
