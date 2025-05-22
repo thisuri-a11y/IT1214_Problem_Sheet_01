@@ -36,11 +36,19 @@ public class Vehicle {
   }
 }
 
+//method
+public void display(){
+   public void setHoursParked(int hoursParked){
+  System.out.println("License space: "+ licensePlate + ",Owner's Name: "+ ownerName + ",horsepark: "+ hoursParked);
+  } 
+}
+
+
 public class ParkingLot {
 
 }
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         ParkingLot lot = new ParkingLot();
 
