@@ -42,7 +42,7 @@ public class BankAccount {
 public void displayAccounts(){
   System.out.println("Aaccount Number: "+ accountNumber + ",AccountHolder's Name: "+ accountHolder + ",Balance: "+ balance);
   } 
-}
+
 
 public class Bank {
 
