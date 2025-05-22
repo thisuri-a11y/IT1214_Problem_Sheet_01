@@ -37,3 +37,21 @@ public class BankAccount {
     
     }
 }
+
+public class Bank {
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Bank bank = new Bank();
+
+        bank.addAccount(new BankAccount(1001, "Alice", 5000.0));
+        bank.addAccount(new BankAccount(1002, "Bob", 3000.0));
+
+        bank.withdrawFromAccount(1001, 6000.0); // Exception
+        bank.withdrawFromAccount(1002, 1000.0); // Success
+
+        bank.displayAccounts();
+    }
+}
