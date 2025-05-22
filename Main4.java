@@ -38,11 +38,15 @@ public class Ticket {
     }
 }
 
+public void displayTickets(){
+  System.out.println("Ticket Number: "+ ticketNumber + ",customer's Name: "+ customerName + ",Seat Number: "+ seatNumber);
+  } 
+
 public class BookingSystem {
     
 }
 
-public class Main {
+public class Main4 {
     public static void main(String[] args) {
         BookingSystem system = new BookingSystem();
 
