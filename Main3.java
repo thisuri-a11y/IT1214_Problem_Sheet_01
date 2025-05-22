@@ -38,11 +38,17 @@ public class BankAccount {
     }
 }
 
+//method
+public void displayAccounts(){
+  System.out.println("Aaccount Number: "+ accountNumber + ",AccountHolder's Name: "+ accountHolder + ",Balance: "+ balance);
+  } 
+}
+
 public class Bank {
 
 }
 
-public class Main {
+public class Main3 {
     public static void main(String[] args) {
         Bank bank = new Bank();
 
