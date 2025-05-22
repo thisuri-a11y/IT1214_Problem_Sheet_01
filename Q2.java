@@ -20,5 +20,19 @@ public class Vehicle {
     public int getHoursParked() {
         return hoursParked;
     }
+
+//setters
+
+  public void setLicensePlate(String licensePlate){
+    this. licensePlate;= licensePlate;
+  }
+
+ public void setOwnerName(String ownerName){
+    this.ownerName=ownerName;
+  }
+
+   public void setHoursParked(int hoursParked){
+    this.hoursParked=hoursParked;
+  }
 }
 
