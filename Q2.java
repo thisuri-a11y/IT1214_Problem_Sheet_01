@@ -24,7 +24,7 @@ public class Vehicle {
 //setters
 
   public void setLicensePlate(String licensePlate){
-    this. licensePlate;= licensePlate;
+    this. licensePlate= licensePlate;
   }
 
  public void setOwnerName(String ownerName){
