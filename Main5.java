@@ -4,7 +4,7 @@ class Student {
     private int exam2;
     private int exam3;
 
-    // Constructor with validation
+    
     public Student(String name, int exam1, int exam2, int exam3) {
         validateScore(exam1);
         validateScore(exam2);
@@ -16,7 +16,7 @@ class Student {
         this.exam3 = exam3;
     }
 
-    // Validation method
+    //  method
     private void validateScore(int score) {
         if (score < 0 || score > 100) {
             throw new IllegalArgumentException("Exam scores must be between 0 and 100.");
@@ -49,7 +49,7 @@ class Student {
 public class Main5 {
     public static void main(String[] args) {
         try {
-            // Invalid score: 110
+            
             Student student = new Student("John", 75, 110, 90);
             double avg = student.calculateAverage();
             System.out.printf("Student: %s, Average Score: %.2f\n", student.getName(), avg);
