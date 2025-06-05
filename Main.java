@@ -45,7 +45,20 @@ public void display(){
   } 
 }
 
-class Classroom{
+class Classroom{  private ArrayList<Student> students;
+
+  public Classroom() {
+    students = new ArrayList<>();
+  }
+
+  public void addStudent(Student student) {
+    students.add(student);
+  }
+
+  public void displayAllStudents() {
+    for (Student student : students) {
+      student.display();
+    }
   
 }
 
